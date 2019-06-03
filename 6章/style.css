@@ -20,13 +20,13 @@ header{
 	margin: 0 auto;
 	text-align: center;
 }
-　/* クラス名headerのタグ内のh1にのみ適用される　*/
+
 header .headline{
 	font-size: 32px;
 }
 
 .nav-list{
-	text-align:center;
+	text-align: center;
 	padding: 10px 0;
 	margin: 0 auto;
 }
@@ -38,33 +38,32 @@ header .headline{
 }
 
 .main-visual{
-	width: 100%; /* 横幅 */
-	height: 300px; /* 高さ　*/
+	width:100%;
+	height:300px;
 	background-image: url(img/mv.jpg);
 	background-size: cover; /* 縦横比を維持したまま背景の表示領域を覆うように表示*/
-	background-position: center;  /* 背景画像を中央に配置*/
+	background-position: center; /* 背景画像を中央に配置　*/
 }
 
 .main-visual-content{
 	width: 40%;
-	height: 300px; /* 親の高さに揃える*/
-	background: rgb(0,0,0,0.5); /* 背景色を半透明の黒にする*/
-	text-align:  center; /* 文字を中央寄せ*/
-	padding-top: 105px; /* 上側のうちわがの余白で垂直方向の位置を調整*/
+	height: 300px;
+	background-color: rgba(0,0,0,0.5);/* 背景色を半透明の黒にする　*/
+	text-align: center; /* 文章を真ん中に寄せる　*/
+	padding-top: 105px; /* 上側の内側の余白で垂直方向の位置を調整　*/
 }
-
 .main-visual-text{
-	color:#fff; /* 文字色を白に変更*/
+	color:#fff; /* 文字色を白に変更　*/
 }
 .main-visual-name{
-	color: #fff; /* 上側の外側の余白*/
-	margin: 30px; /* 文字色白に変更*/
+	/*margin-top: 30px;*/ /* 上側の外側の余白 */
+	color:#fff; /* 文字色を白に変更　*/
+	margin-top: 30px; /* 上側の外側の余白 */
 }
-
-main {
+main{
 	width: 800px;
-	margin: 0 auto; /* 箱の中央寄せ　*/
-	padding: 70px 0; /*上下に70px、左右に0pxの内側の余白*/
+	margin: 0 auto;/*箱の中央寄せ*/
+	padding: 70px 0;/*上下に70px、左右に0pxの枠の内側の余白*/
 }
 
 .blog{
@@ -74,14 +73,15 @@ main {
 }
 
 .blog-headline{
-	border-bottom: 8px solid #f7f7f7;
-	text-align: center;
+	border-bottom:8px solid #f7f7f7;
+	text-align:center;
 	line-height: 0.6;
 }
 
-.blog-box{
+blog-box {
 	padding-top: 50px;
 }
+
 
 .blog-item{
 	padding-bottom: 20px;
@@ -89,30 +89,31 @@ main {
 	border-bottom: 1px solid #f7f7f7;
 }
 
+
 .blog-image{
 	float: left;
-	height: 180px;
+	height :180px;
 }
 
-.blog-text-headline{
+.blog-text-hedline{
 	padding-bottom: 15px;
+
 }
 
 .blog-text{
-	float:left;
+	float: left;
 	padding: 30px 0 0 25px;
 }
 
 .blog-data{
-	display: inline-block;
-	font-size: 12px;
+	display:inline-block;
+	font-size:12px;
 }
-.category{
+.category {
 	display: inline-block;
 	padding: 5px 8px;
-	background-color: #acabcb;
+	background-color:#acabab;
 	border-radius: 3px;
-	color: #fff;
 	font-size: 11px;
 }
 .sidebar{
@@ -121,12 +122,12 @@ main {
 }
 
 footer{
-	width: 100%;
+	width:100%;
 	height: 120px;
 	text-align: center;
 	padding: 50px 0;
 	background-color: #848282;
 }
-.footer-text{
+.fotter-text{
 	color:#fff;
 }
