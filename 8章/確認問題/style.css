@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6a;
+}
+a{
+	text-decoration:  none;
+}
+
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.fab{
+	font-size:  32px
+}
+.position{
+	position: absolute;
+	right: 40px;
+	top: 100px;
+}
